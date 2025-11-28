@@ -1,0 +1,9 @@
+name = "innova-digital-systems"
+compatibility_date = "2024-11-27"
+pages_build_output_dir = "dist"
+compatibility_flags = ["nodejs_compat"]
+
+[vars]
+COSMOS_DB_DATABASE = "innova-digital"
+COSMOS_DB_CONTAINER = "requests"
+DEFAULT_TENANT = "default"

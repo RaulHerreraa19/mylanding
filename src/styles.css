@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply font-body bg-midnight text-gray-100 antialiased;
+}
+
+.section-wrapper {
+  @apply relative isolate overflow-hidden rounded-3xl border border-white/5 bg-white/5 p-6 shadow-2xl shadow-cyan-500/10 sm:p-10;
+}
+
+.section-gradient {
+  @apply absolute inset-0 -z-10 bg-gradient-radial opacity-80;
+}

@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ES2022",
+    "lib": ["ES2022", "DOM"],
+    "moduleResolution": "Bundler",
+    "strict": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "types": ["@cloudflare/workers-types"],
+    "baseUrl": "./workers/src",
+    "rootDir": "./workers/src",
+    "outDir": "./functions",
+    "sourceMap": true
+  },
+  "include": ["workers/src/**/*"]
+}
